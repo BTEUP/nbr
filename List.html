@@ -1,0 +1,3199 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)https://nber-rehabcouncil.gov.in/programme/4879 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>National Board of Examination in Rehabilitation(NBER)</title>
+
+    <!-- Fonts -->
+
+
+<!-- Styles -->
+    <style>.file-input-wrapper { overflow: hidden; position: relative; cursor: pointer; z-index: 1; }.file-input-wrapper input[type=file], .file-input-wrapper input[type=file]:focus, .file-input-wrapper input[type=file]:hover { position: absolute; top: 0; left: 0; cursor: pointer; opacity: 0; filter: alpha(opacity=0); z-index: 99; outline: 0; }.file-input-name { margin-left: 8px; }</style><link rel="stylesheet" href="./List_files/bootstrap.min.css">
+    <link rel="stylesheet" href="./List_files/sweetalert.min.css">
+    <link rel="stylesheet" href="./List_files/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" href="./List_files/style.css">
+    <link rel="stylesheet" href="./List_files/font-awesome.min.css">
+    <link rel="stylesheet" href="./List_files/bootstrap-imageupload.css">
+
+
+<!-- JavaScripts -->
+    <script src="./List_files/jquery-3.6.0.min.js.download"></script>
+    <script src="./List_files/moment.min.js.download"></script>
+    <script src="./List_files/bootstrap.min.js.download"></script>
+    <script src="./List_files/bootstrap-datetimepicker.min.js.download"></script>
+    <script src="./List_files/sweetalert.min.js.download"></script><style type="text/css">body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
+  overflow-y: hidden; }
+
+body.swal2-toast-shown {
+  overflow-y: auto; }
+  body.swal2-toast-shown.swal2-has-input > .swal2-container > .swal2-toast {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    body.swal2-toast-shown.swal2-has-input > .swal2-container > .swal2-toast .swal2-icon {
+      margin: 0 0 15px; }
+    body.swal2-toast-shown.swal2-has-input > .swal2-container > .swal2-toast .swal2-buttonswrapper {
+      -webkit-box-flex: 1;
+          -ms-flex: 1;
+              flex: 1;
+      -ms-flex-item-align: stretch;
+          align-self: stretch;
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end; }
+    body.swal2-toast-shown.swal2-has-input > .swal2-container > .swal2-toast .swal2-loading {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+    body.swal2-toast-shown.swal2-has-input > .swal2-container > .swal2-toast .swal2-input {
+      height: 32px;
+      font-size: 14px;
+      margin: 5px auto; }
+  body.swal2-toast-shown > .swal2-container {
+    position: fixed;
+    background-color: transparent; }
+    body.swal2-toast-shown > .swal2-container.swal2-shown {
+      background-color: transparent; }
+    body.swal2-toast-shown > .swal2-container.swal2-top {
+      top: 0;
+      left: 50%;
+      bottom: auto;
+      right: auto;
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%); }
+    body.swal2-toast-shown > .swal2-container.swal2-top-right {
+      top: 0;
+      left: auto;
+      bottom: auto;
+      right: 0; }
+    body.swal2-toast-shown > .swal2-container.swal2-top-left {
+      top: 0;
+      left: 0;
+      bottom: auto;
+      right: auto; }
+    body.swal2-toast-shown > .swal2-container.swal2-center-left {
+      top: 50%;
+      left: 0;
+      bottom: auto;
+      right: auto;
+      -webkit-transform: translateY(-50%);
+              transform: translateY(-50%); }
+    body.swal2-toast-shown > .swal2-container.swal2-center {
+      top: 50%;
+      left: 50%;
+      bottom: auto;
+      right: auto;
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%); }
+    body.swal2-toast-shown > .swal2-container.swal2-center-right {
+      top: 50%;
+      left: auto;
+      bottom: auto;
+      right: 0;
+      -webkit-transform: translateY(-50%);
+              transform: translateY(-50%); }
+    body.swal2-toast-shown > .swal2-container.swal2-bottom-left {
+      top: auto;
+      left: 0;
+      bottom: 0;
+      right: auto; }
+    body.swal2-toast-shown > .swal2-container.swal2-bottom {
+      top: auto;
+      left: 50%;
+      bottom: 0;
+      right: auto;
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%); }
+    body.swal2-toast-shown > .swal2-container.swal2-bottom-right {
+      top: auto;
+      left: auto;
+      bottom: 0;
+      right: 0; }
+
+body.swal2-iosfix {
+  position: fixed;
+  left: 0;
+  right: 0; }
+
+body.swal2-no-backdrop > .swal2-shown {
+  top: auto;
+  bottom: auto;
+  left: auto;
+  right: auto;
+  background-color: transparent; }
+  body.swal2-no-backdrop > .swal2-shown > .swal2-modal {
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); }
+  body.swal2-no-backdrop > .swal2-shown.swal2-top {
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%); }
+  body.swal2-no-backdrop > .swal2-shown.swal2-top-left {
+    top: 0;
+    left: 0; }
+  body.swal2-no-backdrop > .swal2-shown.swal2-top-right {
+    top: 0;
+    right: 0; }
+  body.swal2-no-backdrop > .swal2-shown.swal2-center {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); }
+  body.swal2-no-backdrop > .swal2-shown.swal2-center-left {
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%); }
+  body.swal2-no-backdrop > .swal2-shown.swal2-center-right {
+    top: 50%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%); }
+  body.swal2-no-backdrop > .swal2-shown.swal2-bottom {
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%); }
+  body.swal2-no-backdrop > .swal2-shown.swal2-bottom-left {
+    bottom: 0;
+    left: 0; }
+  body.swal2-no-backdrop > .swal2-shown.swal2-bottom-right {
+    bottom: 0;
+    right: 0; }
+
+.swal2-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: fixed;
+  padding: 10px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: transparent;
+  z-index: 1060; }
+  .swal2-container.swal2-top {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
+  .swal2-container.swal2-top-left {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start; }
+  .swal2-container.swal2-top-right {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
+  .swal2-container.swal2-center {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .swal2-container.swal2-center-left {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start; }
+  .swal2-container.swal2-center-right {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
+  .swal2-container.swal2-bottom {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end; }
+  .swal2-container.swal2-bottom-left {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start; }
+  .swal2-container.swal2-bottom-right {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
+  .swal2-container.swal2-grow-fullscreen > .swal2-modal {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    -ms-flex-item-align: stretch;
+        align-self: stretch;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .swal2-container.swal2-grow-row > .swal2-modal {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .swal2-container.swal2-grow-column {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .swal2-container.swal2-grow-column.swal2-top, .swal2-container.swal2-grow-column.swal2-center, .swal2-container.swal2-grow-column.swal2-bottom {
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+    .swal2-container.swal2-grow-column.swal2-top-left, .swal2-container.swal2-grow-column.swal2-center-left, .swal2-container.swal2-grow-column.swal2-bottom-left {
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start; }
+    .swal2-container.swal2-grow-column.swal2-top-right, .swal2-container.swal2-grow-column.swal2-center-right, .swal2-container.swal2-grow-column.swal2-bottom-right {
+      -webkit-box-align: end;
+          -ms-flex-align: end;
+              align-items: flex-end; }
+    .swal2-container.swal2-grow-column > .swal2-modal {
+      display: -webkit-box !important;
+      display: -ms-flexbox !important;
+      display: flex !important;
+      -webkit-box-flex: 1;
+          -ms-flex: 1;
+              flex: 1;
+      -ms-flex-line-pack: center;
+          align-content: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+  .swal2-container:not(.swal2-top):not(.swal2-top-left):not(.swal2-top-right):not(.swal2-center-left):not(.swal2-center-right):not(.swal2-bottom):not(.swal2-bottom-left):not(.swal2-bottom-right) > .swal2-modal {
+    margin: auto; }
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .swal2-container .swal2-modal {
+      margin: 0 !important; } }
+  .swal2-container.swal2-fade {
+    -webkit-transition: background-color .1s;
+    transition: background-color .1s; }
+  .swal2-container.swal2-shown {
+    background-color: rgba(0, 0, 0, 0.4); }
+
+.swal2-popup {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fff;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  border-radius: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+  display: none;
+  position: relative;
+  max-width: 100%; }
+  .swal2-popup.swal2-toast {
+    width: 300px;
+    padding: 0 15px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    overflow-y: hidden;
+    -webkit-box-shadow: 0 0 10px #d9d9d9;
+            box-shadow: 0 0 10px #d9d9d9; }
+    .swal2-popup.swal2-toast .swal2-title {
+      max-width: 300px;
+      font-size: 16px;
+      text-align: left; }
+    .swal2-popup.swal2-toast .swal2-content {
+      font-size: 14px;
+      text-align: left; }
+    .swal2-popup.swal2-toast .swal2-icon {
+      width: 32px;
+      min-width: 32px;
+      height: 32px;
+      margin: 0 15px 0 0; }
+      .swal2-popup.swal2-toast .swal2-icon.swal2-success .swal2-success-ring {
+        width: 32px;
+        height: 32px; }
+      .swal2-popup.swal2-toast .swal2-icon.swal2-info, .swal2-popup.swal2-toast .swal2-icon.swal2-warning, .swal2-popup.swal2-toast .swal2-icon.swal2-question {
+        font-size: 26px;
+        line-height: 32px; }
+      .swal2-popup.swal2-toast .swal2-icon.swal2-error [class^='swal2-x-mark-line'] {
+        top: 14px;
+        width: 22px; }
+        .swal2-popup.swal2-toast .swal2-icon.swal2-error [class^='swal2-x-mark-line'][class$='left'] {
+          left: 5px; }
+        .swal2-popup.swal2-toast .swal2-icon.swal2-error [class^='swal2-x-mark-line'][class$='right'] {
+          right: 5px; }
+    .swal2-popup.swal2-toast .swal2-buttonswrapper {
+      margin: 0 0 0 5px; }
+    .swal2-popup.swal2-toast .swal2-styled {
+      margin: 0 0 0 5px;
+      padding: 5px 10px; }
+      .swal2-popup.swal2-toast .swal2-styled:focus {
+        -webkit-box-shadow: 0 0 0 1px #fff, 0 0 0 2px rgba(50, 100, 150, 0.4);
+                box-shadow: 0 0 0 1px #fff, 0 0 0 2px rgba(50, 100, 150, 0.4); }
+    .swal2-popup.swal2-toast .swal2-validationerror {
+      width: 100%;
+      margin: 5px -20px; }
+    .swal2-popup.swal2-toast .swal2-success {
+      border-color: #a5dc86; }
+      .swal2-popup.swal2-toast .swal2-success [class^='swal2-success-circular-line'] {
+        border-radius: 50%;
+        position: absolute;
+        width: 32px;
+        height: 64px;
+        -webkit-transform: rotate(45deg);
+                transform: rotate(45deg); }
+        .swal2-popup.swal2-toast .swal2-success [class^='swal2-success-circular-line'][class$='left'] {
+          border-radius: 64px 0 0 64px;
+          top: -4px;
+          left: -15px;
+          -webkit-transform: rotate(-45deg);
+                  transform: rotate(-45deg);
+          -webkit-transform-origin: 32px 32px;
+                  transform-origin: 32px 32px; }
+        .swal2-popup.swal2-toast .swal2-success [class^='swal2-success-circular-line'][class$='right'] {
+          border-radius: 0 64px 64px 0;
+          top: -5px;
+          left: 14px;
+          -webkit-transform-origin: 0 32px;
+                  transform-origin: 0 32px; }
+      .swal2-popup.swal2-toast .swal2-success .swal2-success-ring {
+        width: 32px;
+        height: 32px; }
+      .swal2-popup.swal2-toast .swal2-success .swal2-success-fix {
+        width: 7px;
+        height: 90px;
+        left: 28px;
+        top: 8px; }
+      .swal2-popup.swal2-toast .swal2-success [class^='swal2-success-line'] {
+        height: 5px; }
+        .swal2-popup.swal2-toast .swal2-success [class^='swal2-success-line'][class$='tip'] {
+          width: 12px;
+          left: 3px;
+          top: 18px; }
+        .swal2-popup.swal2-toast .swal2-success [class^='swal2-success-line'][class$='long'] {
+          width: 22px;
+          right: 3px;
+          top: 15px; }
+    .swal2-popup.swal2-toast .swal2-animate-success-line-tip {
+      -webkit-animation: animate-toast-success-tip .75s;
+              animation: animate-toast-success-tip .75s; }
+    .swal2-popup.swal2-toast .swal2-animate-success-line-long {
+      -webkit-animation: animate-toast-success-long .75s;
+              animation: animate-toast-success-long .75s; }
+  .swal2-popup:focus {
+    outline: none; }
+  .swal2-popup.swal2-loading {
+    overflow-y: hidden; }
+  .swal2-popup .swal2-title {
+    color: #595959;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: none;
+    position: relative;
+    margin: 0 0 .4em;
+    padding: 0;
+    display: block;
+    word-wrap: break-word; }
+  .swal2-popup .swal2-buttonswrapper {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 15px; }
+    .swal2-popup .swal2-buttonswrapper:not(.swal2-loading) .swal2-styled[disabled] {
+      opacity: .4;
+      cursor: no-drop; }
+    .swal2-popup .swal2-buttonswrapper.swal2-loading .swal2-styled.swal2-confirm {
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      border: 4px solid transparent;
+      border-color: transparent;
+      width: 40px;
+      height: 40px;
+      padding: 0;
+      margin: 7.5px;
+      vertical-align: top;
+      background-color: transparent !important;
+      color: transparent;
+      cursor: default;
+      border-radius: 100%;
+      -webkit-animation: rotate-loading 1.5s linear 0s infinite normal;
+              animation: rotate-loading 1.5s linear 0s infinite normal;
+      -webkit-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none; }
+    .swal2-popup .swal2-buttonswrapper.swal2-loading .swal2-styled.swal2-cancel {
+      margin-left: 30px;
+      margin-right: 30px; }
+    .swal2-popup .swal2-buttonswrapper.swal2-loading :not(.swal2-styled).swal2-confirm::after {
+      display: inline-block;
+      content: '';
+      margin-left: 5px;
+      vertical-align: -1px;
+      height: 15px;
+      width: 15px;
+      border: 3px solid #999999;
+      -webkit-box-shadow: 1px 1px 1px #fff;
+              box-shadow: 1px 1px 1px #fff;
+      border-right-color: transparent;
+      border-radius: 50%;
+      -webkit-animation: rotate-loading 1.5s linear 0s infinite normal;
+              animation: rotate-loading 1.5s linear 0s infinite normal; }
+  .swal2-popup .swal2-styled {
+    border: 0;
+    border-radius: 3px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 15px 5px 0;
+    padding: 10px 32px; }
+    .swal2-popup .swal2-styled:focus {
+      outline: none;
+      -webkit-box-shadow: 0 0 0 2px #fff, 0 0 0 4px rgba(50, 100, 150, 0.4);
+              box-shadow: 0 0 0 2px #fff, 0 0 0 4px rgba(50, 100, 150, 0.4); }
+  .swal2-popup .swal2-image {
+    margin: 20px auto;
+    max-width: 100%; }
+  .swal2-popup .swal2-close {
+    background: transparent;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    width: 38px;
+    height: 40px;
+    font-size: 36px;
+    line-height: 40px;
+    font-family: serif;
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    cursor: pointer;
+    color: #cccccc;
+    -webkit-transition: color .1s ease;
+    transition: color .1s ease; }
+    .swal2-popup .swal2-close:hover {
+      color: #d55; }
+  .swal2-popup > .swal2-input,
+  .swal2-popup > .swal2-file,
+  .swal2-popup > .swal2-textarea,
+  .swal2-popup > .swal2-select,
+  .swal2-popup > .swal2-radio,
+  .swal2-popup > .swal2-checkbox {
+    display: none; }
+  .swal2-popup .swal2-content {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 300;
+    position: relative;
+    float: none;
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+    color: #545454;
+    word-wrap: break-word; }
+  .swal2-popup .swal2-input,
+  .swal2-popup .swal2-file,
+  .swal2-popup .swal2-textarea,
+  .swal2-popup .swal2-select,
+  .swal2-popup .swal2-radio,
+  .swal2-popup .swal2-checkbox {
+    margin: 20px auto; }
+  .swal2-popup .swal2-input,
+  .swal2-popup .swal2-file,
+  .swal2-popup .swal2-textarea {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-size: 18px;
+    border-radius: 3px;
+    border: 1px solid #d9d9d9;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.06);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.06);
+    -webkit-transition: border-color .3s, -webkit-box-shadow .3s;
+    transition: border-color .3s, -webkit-box-shadow .3s;
+    transition: border-color .3s, box-shadow .3s;
+    transition: border-color .3s, box-shadow .3s, -webkit-box-shadow .3s; }
+    .swal2-popup .swal2-input.swal2-inputerror,
+    .swal2-popup .swal2-file.swal2-inputerror,
+    .swal2-popup .swal2-textarea.swal2-inputerror {
+      border-color: #f27474 !important;
+      -webkit-box-shadow: 0 0 2px #f27474 !important;
+              box-shadow: 0 0 2px #f27474 !important; }
+    .swal2-popup .swal2-input:focus,
+    .swal2-popup .swal2-file:focus,
+    .swal2-popup .swal2-textarea:focus {
+      outline: none;
+      border: 1px solid #b4dbed;
+      -webkit-box-shadow: 0 0 3px #c4e6f5;
+              box-shadow: 0 0 3px #c4e6f5; }
+    .swal2-popup .swal2-input::-webkit-input-placeholder,
+    .swal2-popup .swal2-file::-webkit-input-placeholder,
+    .swal2-popup .swal2-textarea::-webkit-input-placeholder {
+      color: #cccccc; }
+    .swal2-popup .swal2-input:-ms-input-placeholder,
+    .swal2-popup .swal2-file:-ms-input-placeholder,
+    .swal2-popup .swal2-textarea:-ms-input-placeholder {
+      color: #cccccc; }
+    .swal2-popup .swal2-input::-ms-input-placeholder,
+    .swal2-popup .swal2-file::-ms-input-placeholder,
+    .swal2-popup .swal2-textarea::-ms-input-placeholder {
+      color: #cccccc; }
+    .swal2-popup .swal2-input::placeholder,
+    .swal2-popup .swal2-file::placeholder,
+    .swal2-popup .swal2-textarea::placeholder {
+      color: #cccccc; }
+  .swal2-popup .swal2-range input {
+    float: left;
+    width: 80%; }
+  .swal2-popup .swal2-range output {
+    float: right;
+    width: 20%;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center; }
+  .swal2-popup .swal2-range input,
+  .swal2-popup .swal2-range output {
+    height: 43px;
+    line-height: 43px;
+    vertical-align: middle;
+    margin: 20px auto;
+    padding: 0; }
+  .swal2-popup .swal2-input {
+    height: 43px;
+    padding: 0 12px; }
+    .swal2-popup .swal2-input[type='number'] {
+      max-width: 150px; }
+  .swal2-popup .swal2-file {
+    font-size: 20px; }
+  .swal2-popup .swal2-textarea {
+    height: 108px;
+    padding: 12px; }
+  .swal2-popup .swal2-select {
+    color: #545454;
+    font-size: inherit;
+    padding: 5px 10px;
+    min-width: 40%;
+    max-width: 100%; }
+  .swal2-popup .swal2-radio {
+    border: 0; }
+    .swal2-popup .swal2-radio label:not(:first-child) {
+      margin-left: 20px; }
+    .swal2-popup .swal2-radio input,
+    .swal2-popup .swal2-radio span {
+      vertical-align: middle; }
+    .swal2-popup .swal2-radio input {
+      margin: 0 3px 0 0; }
+  .swal2-popup .swal2-checkbox {
+    color: #545454; }
+    .swal2-popup .swal2-checkbox input,
+    .swal2-popup .swal2-checkbox span {
+      vertical-align: middle; }
+  .swal2-popup .swal2-validationerror {
+    background-color: #f0f0f0;
+    margin: 0 -20px;
+    overflow: hidden;
+    padding: 10px;
+    color: gray;
+    font-size: 16px;
+    font-weight: 300;
+    display: none; }
+    .swal2-popup .swal2-validationerror::before {
+      content: '!';
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background-color: #ea7d7d;
+      color: #fff;
+      line-height: 24px;
+      text-align: center;
+      margin-right: 10px; }
+
+@supports (-ms-accelerator: true) {
+  .swal2-range input {
+    width: 100% !important; }
+  .swal2-range output {
+    display: none; } }
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .swal2-range input {
+    width: 100% !important; }
+  .swal2-range output {
+    display: none; } }
+
+.swal2-icon {
+  width: 80px;
+  height: 80px;
+  border: 4px solid transparent;
+  border-radius: 50%;
+  margin: 20px auto 30px;
+  padding: 0;
+  position: relative;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  cursor: default;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
+  .swal2-icon.swal2-error {
+    border-color: #f27474; }
+    .swal2-icon.swal2-error .swal2-x-mark {
+      position: relative;
+      display: block; }
+    .swal2-icon.swal2-error [class^='swal2-x-mark-line'] {
+      position: absolute;
+      height: 5px;
+      width: 47px;
+      background-color: #f27474;
+      display: block;
+      top: 37px;
+      border-radius: 2px; }
+      .swal2-icon.swal2-error [class^='swal2-x-mark-line'][class$='left'] {
+        -webkit-transform: rotate(45deg);
+                transform: rotate(45deg);
+        left: 17px; }
+      .swal2-icon.swal2-error [class^='swal2-x-mark-line'][class$='right'] {
+        -webkit-transform: rotate(-45deg);
+                transform: rotate(-45deg);
+        right: 16px; }
+  .swal2-icon.swal2-warning {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #f8bb86;
+    border-color: #facea8;
+    font-size: 60px;
+    line-height: 80px;
+    text-align: center; }
+  .swal2-icon.swal2-info {
+    font-family: 'Open Sans', sans-serif;
+    color: #3fc3ee;
+    border-color: #9de0f6;
+    font-size: 60px;
+    line-height: 80px;
+    text-align: center; }
+  .swal2-icon.swal2-question {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #87adbd;
+    border-color: #c9dae1;
+    font-size: 60px;
+    line-height: 80px;
+    text-align: center; }
+  .swal2-icon.swal2-success {
+    border-color: #a5dc86; }
+    .swal2-icon.swal2-success [class^='swal2-success-circular-line'] {
+      border-radius: 50%;
+      position: absolute;
+      width: 60px;
+      height: 120px;
+      -webkit-transform: rotate(45deg);
+              transform: rotate(45deg); }
+      .swal2-icon.swal2-success [class^='swal2-success-circular-line'][class$='left'] {
+        border-radius: 120px 0 0 120px;
+        top: -7px;
+        left: -33px;
+        -webkit-transform: rotate(-45deg);
+                transform: rotate(-45deg);
+        -webkit-transform-origin: 60px 60px;
+                transform-origin: 60px 60px; }
+      .swal2-icon.swal2-success [class^='swal2-success-circular-line'][class$='right'] {
+        border-radius: 0 120px 120px 0;
+        top: -11px;
+        left: 30px;
+        -webkit-transform: rotate(-45deg);
+                transform: rotate(-45deg);
+        -webkit-transform-origin: 0 60px;
+                transform-origin: 0 60px; }
+    .swal2-icon.swal2-success .swal2-success-ring {
+      width: 80px;
+      height: 80px;
+      border: 4px solid rgba(165, 220, 134, 0.2);
+      border-radius: 50%;
+      -webkit-box-sizing: content-box;
+              box-sizing: content-box;
+      position: absolute;
+      left: -4px;
+      top: -4px;
+      z-index: 2; }
+    .swal2-icon.swal2-success .swal2-success-fix {
+      width: 7px;
+      height: 90px;
+      position: absolute;
+      left: 28px;
+      top: 8px;
+      z-index: 1;
+      -webkit-transform: rotate(-45deg);
+              transform: rotate(-45deg); }
+    .swal2-icon.swal2-success [class^='swal2-success-line'] {
+      height: 5px;
+      background-color: #a5dc86;
+      display: block;
+      border-radius: 2px;
+      position: absolute;
+      z-index: 2; }
+      .swal2-icon.swal2-success [class^='swal2-success-line'][class$='tip'] {
+        width: 25px;
+        left: 14px;
+        top: 46px;
+        -webkit-transform: rotate(45deg);
+                transform: rotate(45deg); }
+      .swal2-icon.swal2-success [class^='swal2-success-line'][class$='long'] {
+        width: 47px;
+        right: 8px;
+        top: 38px;
+        -webkit-transform: rotate(-45deg);
+                transform: rotate(-45deg); }
+
+.swal2-progresssteps {
+  font-weight: 600;
+  margin: 0 0 20px;
+  padding: 0; }
+  .swal2-progresssteps li {
+    display: inline-block;
+    position: relative; }
+  .swal2-progresssteps .swal2-progresscircle {
+    background: #3085d6;
+    border-radius: 2em;
+    color: #fff;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+    width: 2em;
+    z-index: 20; }
+    .swal2-progresssteps .swal2-progresscircle:first-child {
+      margin-left: 0; }
+    .swal2-progresssteps .swal2-progresscircle:last-child {
+      margin-right: 0; }
+    .swal2-progresssteps .swal2-progresscircle.swal2-activeprogressstep {
+      background: #3085d6; }
+      .swal2-progresssteps .swal2-progresscircle.swal2-activeprogressstep ~ .swal2-progresscircle {
+        background: #add8e6; }
+      .swal2-progresssteps .swal2-progresscircle.swal2-activeprogressstep ~ .swal2-progressline {
+        background: #add8e6; }
+  .swal2-progresssteps .swal2-progressline {
+    background: #3085d6;
+    height: .4em;
+    margin: 0 -1px;
+    z-index: 10; }
+
+[class^='swal2'] {
+  -webkit-tap-highlight-color: transparent; }
+
+@-webkit-keyframes showSweetToast {
+  0% {
+    -webkit-transform: translateY(-10px) rotateZ(2deg);
+            transform: translateY(-10px) rotateZ(2deg);
+    opacity: 0; }
+  33% {
+    -webkit-transform: translateY(0) rotateZ(-2deg);
+            transform: translateY(0) rotateZ(-2deg);
+    opacity: .5; }
+  66% {
+    -webkit-transform: translateY(5px) rotateZ(2deg);
+            transform: translateY(5px) rotateZ(2deg);
+    opacity: .7; }
+  100% {
+    -webkit-transform: translateY(0) rotateZ(0);
+            transform: translateY(0) rotateZ(0);
+    opacity: 1; } }
+
+@keyframes showSweetToast {
+  0% {
+    -webkit-transform: translateY(-10px) rotateZ(2deg);
+            transform: translateY(-10px) rotateZ(2deg);
+    opacity: 0; }
+  33% {
+    -webkit-transform: translateY(0) rotateZ(-2deg);
+            transform: translateY(0) rotateZ(-2deg);
+    opacity: .5; }
+  66% {
+    -webkit-transform: translateY(5px) rotateZ(2deg);
+            transform: translateY(5px) rotateZ(2deg);
+    opacity: .7; }
+  100% {
+    -webkit-transform: translateY(0) rotateZ(0);
+            transform: translateY(0) rotateZ(0);
+    opacity: 1; } }
+
+@-webkit-keyframes hideSweetToast {
+  0% {
+    opacity: 1; }
+  33% {
+    opacity: .5; }
+  100% {
+    -webkit-transform: rotateZ(1deg);
+            transform: rotateZ(1deg);
+    opacity: 0; } }
+
+@keyframes hideSweetToast {
+  0% {
+    opacity: 1; }
+  33% {
+    opacity: .5; }
+  100% {
+    -webkit-transform: rotateZ(1deg);
+            transform: rotateZ(1deg);
+    opacity: 0; } }
+
+@-webkit-keyframes showSweetAlert {
+  0% {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7); }
+  45% {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05); }
+  80% {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95); }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+
+@keyframes showSweetAlert {
+  0% {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7); }
+  45% {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05); }
+  80% {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95); }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+
+@-webkit-keyframes hideSweetAlert {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1; }
+  100% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+    opacity: 0; } }
+
+@keyframes hideSweetAlert {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1; }
+  100% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+    opacity: 0; } }
+
+.swal2-show {
+  -webkit-animation: showSweetAlert .3s;
+          animation: showSweetAlert .3s; }
+  .swal2-show.swal2-toast {
+    -webkit-animation: showSweetToast .5s;
+            animation: showSweetToast .5s; }
+  .swal2-show.swal2-noanimation {
+    -webkit-animation: none;
+            animation: none; }
+
+.swal2-hide {
+  -webkit-animation: hideSweetAlert .15s forwards;
+          animation: hideSweetAlert .15s forwards; }
+  .swal2-hide.swal2-toast {
+    -webkit-animation: hideSweetToast .2s forwards;
+            animation: hideSweetToast .2s forwards; }
+  .swal2-hide.swal2-noanimation {
+    -webkit-animation: none;
+            animation: none; }
+
+@-webkit-keyframes animate-success-tip {
+  0% {
+    width: 0;
+    left: 1px;
+    top: 19px; }
+  54% {
+    width: 0;
+    left: 1px;
+    top: 19px; }
+  70% {
+    width: 50px;
+    left: -8px;
+    top: 37px; }
+  84% {
+    width: 17px;
+    left: 21px;
+    top: 48px; }
+  100% {
+    width: 25px;
+    left: 14px;
+    top: 45px; } }
+
+@keyframes animate-success-tip {
+  0% {
+    width: 0;
+    left: 1px;
+    top: 19px; }
+  54% {
+    width: 0;
+    left: 1px;
+    top: 19px; }
+  70% {
+    width: 50px;
+    left: -8px;
+    top: 37px; }
+  84% {
+    width: 17px;
+    left: 21px;
+    top: 48px; }
+  100% {
+    width: 25px;
+    left: 14px;
+    top: 45px; } }
+
+@-webkit-keyframes animate-success-long {
+  0% {
+    width: 0;
+    right: 46px;
+    top: 54px; }
+  65% {
+    width: 0;
+    right: 46px;
+    top: 54px; }
+  84% {
+    width: 55px;
+    right: 0;
+    top: 35px; }
+  100% {
+    width: 47px;
+    right: 8px;
+    top: 38px; } }
+
+@keyframes animate-success-long {
+  0% {
+    width: 0;
+    right: 46px;
+    top: 54px; }
+  65% {
+    width: 0;
+    right: 46px;
+    top: 54px; }
+  84% {
+    width: 55px;
+    right: 0;
+    top: 35px; }
+  100% {
+    width: 47px;
+    right: 8px;
+    top: 38px; } }
+
+@-webkit-keyframes animate-toast-success-tip {
+  0% {
+    width: 0;
+    left: 1px;
+    top: 9px; }
+  54% {
+    width: 0;
+    left: 1px;
+    top: 9px; }
+  70% {
+    width: 24px;
+    left: -4px;
+    top: 17px; }
+  84% {
+    width: 8px;
+    left: 10px;
+    top: 20px; }
+  100% {
+    width: 12px;
+    left: 3px;
+    top: 18px; } }
+
+@keyframes animate-toast-success-tip {
+  0% {
+    width: 0;
+    left: 1px;
+    top: 9px; }
+  54% {
+    width: 0;
+    left: 1px;
+    top: 9px; }
+  70% {
+    width: 24px;
+    left: -4px;
+    top: 17px; }
+  84% {
+    width: 8px;
+    left: 10px;
+    top: 20px; }
+  100% {
+    width: 12px;
+    left: 3px;
+    top: 18px; } }
+
+@-webkit-keyframes animate-toast-success-long {
+  0% {
+    width: 0;
+    right: 22px;
+    top: 26px; }
+  65% {
+    width: 0;
+    right: 22px;
+    top: 26px; }
+  84% {
+    width: 26px;
+    right: 0;
+    top: 15px; }
+  100% {
+    width: 22px;
+    right: 3px;
+    top: 15px; } }
+
+@keyframes animate-toast-success-long {
+  0% {
+    width: 0;
+    right: 22px;
+    top: 26px; }
+  65% {
+    width: 0;
+    right: 22px;
+    top: 26px; }
+  84% {
+    width: 26px;
+    right: 0;
+    top: 15px; }
+  100% {
+    width: 22px;
+    right: 3px;
+    top: 15px; } }
+
+@-webkit-keyframes rotatePlaceholder {
+  0% {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg); }
+  5% {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg); }
+  12% {
+    -webkit-transform: rotate(-405deg);
+            transform: rotate(-405deg); }
+  100% {
+    -webkit-transform: rotate(-405deg);
+            transform: rotate(-405deg); } }
+
+@keyframes rotatePlaceholder {
+  0% {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg); }
+  5% {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg); }
+  12% {
+    -webkit-transform: rotate(-405deg);
+            transform: rotate(-405deg); }
+  100% {
+    -webkit-transform: rotate(-405deg);
+            transform: rotate(-405deg); } }
+
+.swal2-animate-success-line-tip {
+  -webkit-animation: animate-success-tip .75s;
+          animation: animate-success-tip .75s; }
+
+.swal2-animate-success-line-long {
+  -webkit-animation: animate-success-long .75s;
+          animation: animate-success-long .75s; }
+
+.swal2-success.swal2-animate-success-icon .swal2-success-circular-line-right {
+  -webkit-animation: rotatePlaceholder 4.25s ease-in;
+          animation: rotatePlaceholder 4.25s ease-in; }
+
+@-webkit-keyframes animate-error-icon {
+  0% {
+    -webkit-transform: rotateX(100deg);
+            transform: rotateX(100deg);
+    opacity: 0; }
+  100% {
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+    opacity: 1; } }
+
+@keyframes animate-error-icon {
+  0% {
+    -webkit-transform: rotateX(100deg);
+            transform: rotateX(100deg);
+    opacity: 0; }
+  100% {
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+    opacity: 1; } }
+
+.swal2-animate-error-icon {
+  -webkit-animation: animate-error-icon .5s;
+          animation: animate-error-icon .5s; }
+
+@-webkit-keyframes animate-x-mark {
+  0% {
+    -webkit-transform: scale(0.4);
+            transform: scale(0.4);
+    margin-top: 26px;
+    opacity: 0; }
+  50% {
+    -webkit-transform: scale(0.4);
+            transform: scale(0.4);
+    margin-top: 26px;
+    opacity: 0; }
+  80% {
+    -webkit-transform: scale(1.15);
+            transform: scale(1.15);
+    margin-top: -6px; }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    margin-top: 0;
+    opacity: 1; } }
+
+@keyframes animate-x-mark {
+  0% {
+    -webkit-transform: scale(0.4);
+            transform: scale(0.4);
+    margin-top: 26px;
+    opacity: 0; }
+  50% {
+    -webkit-transform: scale(0.4);
+            transform: scale(0.4);
+    margin-top: 26px;
+    opacity: 0; }
+  80% {
+    -webkit-transform: scale(1.15);
+            transform: scale(1.15);
+    margin-top: -6px; }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    margin-top: 0;
+    opacity: 1; } }
+
+.swal2-animate-x-mark {
+  -webkit-animation: animate-x-mark .5s;
+          animation: animate-x-mark .5s; }
+
+@-webkit-keyframes rotate-loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@keyframes rotate-loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+</style>
+    <script src="./List_files/bootstrap.file-input.js.download"></script>
+    <script src="./List_files/bootstrap-imageupload.js.download"></script>
+    <script src="./List_files/tableExport.js.download"></script>
+        <style>
+        body {
+            /*margin-top: -40px;*/
+            background: #EEEEEE;
+        }
+
+        .custom-pageheader {
+            background: #EEEEEE;
+        }
+
+        .lucida-text {
+            font-family: "Lucida Calligraphy";
+        }
+        .adobe {
+            font-family: "Adobe Caslon Pro";
+        }
+        .yu {
+            font-family: "Yu Gothic Light";
+        }
+        .arial-text {
+            font-family: "Arial";
+        }
+        .courier-text {
+            font-family: "Courier New";
+        }
+
+        .table-borderless > tbody > tr > td,
+        .table-borderless > tbody > tr > th,
+        .table-borderless > tfoot > tr > td,
+        .table-borderless > tfoot > tr > th,
+        .table-borderless > thead > tr > td,
+        .table-borderless > thead > tr > th {
+            border: none !important;
+        }
+        .table{
+            background-color: #fff;
+        }
+        #printPageButton{
+            background:white!important;
+        }
+        @media  print {
+            #printPageButton {
+                display: none;
+            }
+            #printPage {
+                size: A4 landscape;
+            }
+            .hidethis {
+                display: none;
+            }
+            .hidelink:after {
+                content: none !important;
+            }
+            a[href]:after {
+                content: none !important;
+            }
+        }
+
+        .equal-height-row {
+            display: flex;
+        }
+
+        .minus15px-margin-top {
+            margin-top: -15px !important;
+        }
+
+        .white-background {
+            background-color: white;
+            color: black;
+        }
+
+        .black-background {
+            background-color: black;
+            color: white;
+        }
+
+        .red-background {
+            background-color: red !important;
+            color: white !important;
+        }
+
+        .ghostwhite-background {
+            background-color: ghostwhite;
+            color: deepskyblue;
+        }
+
+        .darkblue-background {
+            background-color: darkblue;
+            color: white;
+        }
+
+        .green-background {
+            background: green !important;
+            color: white !important;
+        }
+
+        .grey-background {
+            background: #EEEEEE;
+        }
+
+        .bold-text {
+            font-weight: bold;
+        }
+
+        .center-text {
+            text-align: center !important;
+        }
+
+        .left-text {
+            text-align: left !important;
+        }
+
+        .right-text {
+            text-align: right !important;
+        }
+
+        .orange-text {
+            color: darkorange !important;
+        }
+
+        .green-text {
+            color: darkgreen !important;
+        }
+
+        .red-text {
+            color: red !important;
+        }
+
+        .blue-text {
+            color: blue !important;
+        }
+
+        .brown-text {
+            color: brown !important;
+        }
+
+        .yellow-text {
+            color: yellow !important;
+        }
+
+        .black-text {
+            color: black !important;
+        }
+
+        .icon-text {
+            font-size: 30px;
+        }
+
+        .large-text {
+            font-size: large;
+        }
+
+        .footer {
+            background: #3fc3ee;
+            color: white;
+        }
+
+        td, th {
+            vertical-align: middle !important;
+        }
+
+        . {
+            display: flex; /* equal height of the children */
+        }
+        .page-break {
+            page-break-after: always;
+        }
+
+        .h4-text {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .h5-text {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .h6-text {
+            font-size: 15px;
+        }
+        .h7-text {
+            font-size: 12px;
+        }
+        .h8-text {
+            font-size: 10px;
+        }
+
+        .medium-text {
+            font-size: medium;
+        }
+
+        .justified-text {
+            text-align: justify;
+            text-justify: inter-word;
+        }
+
+        .red-button {
+            background-color: red !important;
+            color: white !important;
+        }
+
+        .red-button:focus,
+        .red-button:hover {
+            background-color: indianred !important;
+            border-color: indianred !important;
+            color: white !important;
+        }
+
+        .breadcrumb {
+            padding: 10px !important;
+            background-color: cornsilk;
+        }
+        .breadcrumb a, .breadcrumb > .heading, .breadcrumb > .active{
+            font-size: medium;
+            color: blue;
+        }
+        .breadcrumb > .active{
+            font-weight: bold;
+            color: red;
+        }
+        .breadcrumb > li + li:before {
+            content: "\00BB";
+            color: blue;
+            font-size: large;
+        }
+        .uppercase-text {
+            text-transform: uppercase !important;
+        }
+        .notfound{
+            display: none;
+        }
+        .table-condensed .progress {
+            margin-bottom: 0 !important;
+        }
+        .wrimagecard{
+            margin-top: 0;
+            margin-bottom: 1.5rem;
+            text-align: left;
+            position: relative;
+            background: #fff;
+            box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+        .wrimagecard .fa{
+            position: relative;
+            font-size: 70px;
+        }
+        .wrimagecard-topimage_header{
+            padding: 20px;
+        }
+        a.wrimagecard:hover, .wrimagecard-topimage:hover {
+            box-shadow: 2px 4px 8px 0px rgba(46,61,73,0.2);
+        }
+        .wrimagecard-topimage a {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .wrimagecard-topimage_title {
+            padding: 10px 10px;
+            height: 80px;
+            padding-bottom: 0.75rem !important;
+            position: relative;
+        }
+        .wrimagecard-topimage a {
+            border-bottom: none;
+            text-decoration: none;
+            color: #525c65;
+            transition: color 0.3s ease;
+        }
+
+        .custom-link:hover, .custom-link:visited, .custom-link:link, .custom-link:active
+        {
+            text-decoration: none;
+        }
+
+        .content-hide {
+            /*visibility: hidden !important;*/
+            display: none !important;
+        }
+
+        .content-show {
+            /*visibility: visible;*/
+            display: inline !important;
+        }
+
+        .loader {
+            margin: auto !important;
+            border: 16px solid #f3f3f3;
+            border-radius: 50%;
+            border-top: 16px solid blue;
+            border-right: 16px solid green;
+            border-bottom: 16px solid red;
+            border-left: 16px solid pink;
+            width: 120px;
+            height: 120px;
+            -webkit-animation: spin 2s linear infinite;
+            animation: spin 2s linear infinite;
+        }
+
+        @-webkit-keyframes spin {
+            0% { -webkit-transform: rotate(0deg); }
+            100% { -webkit-transform: rotate(360deg); }
+        }
+
+        @keyframes  spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .center-div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body id="app-layout">
+<style>
+        .navbar-default .navbar-nav>li>a{
+            color:#fff;    
+        }
+
+        .navbar-default .navbar-nav>li>a:hover{
+            color:#cfcfcf;    
+        }
+        .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+            background: orange!important;
+            color:#000!important;
+        }
+    </style>
+    
+                <div id="printPageButton">
+    <div class="container" style="background:white">
+        <div class="row">
+            <div class="col-sm-12 ">
+               <!-- <img src="https://nber-rehabcouncil.gov.in/images/header.png" class="img-rounded img-responsive center-block" height="60%"/> -->
+               <style>
+                        @media  screen and (max-width: 970px) {
+                            .hclass {
+                                display: none;
+                            }
+                        }
+                    </style>
+                    <div class="hclass">
+                    <img class="pull-left" style="background-color:white;padding:0px;height:140px;padding-top:5px;padding-bottom:5px;" src="./List_files/nber_logo.png" alt="NBER">
+                    <div class="pull-left" style="padding-top:40px;padding-left:20px;">
+                    <span style="color:#040404;;font-size:20px;">
+                        National Board of Examination in Rehabilitation(NBER), New Delhi.
+                    </span> <br>
+                    <div style="color:black;font-size:14px;padding-bottom:8px;">
+                    An Adjunct Body of Rehabilitation Council of India, under Ministry of Social Justice and Empowerment
+                    </div> 
+                    </div>
+                    <a href="https://rehabcouncil.nic.in/" target="_blank">
+                        <img style="background-color:white;padding:4px;width: 200px;padding-top: 32px;" src="./List_files/logo-new.jpg" alt="RCI" class="img-rounded img-responsive center-block pull-right">
+                    </a>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-default navbar-static-top darkblue-background">
+        <div class="container">
+            <div class="navbar-header">
+
+                <!-- Collapsed Hamburger -->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                
+            </div>
+
+            <div class="collapse navbar-collapse" id="app-navbar-collapse">
+                <!-- Left Side Of Navbar -->
+                <ul class="nav navbar-nav">
+                
+                  <li><a href="https://nber-rehabcouncil.gov.in/notice">Home</a></li>
+                  <li><a href="https://nber-rehabcouncil.gov.in/enrolment">Enrolment</a></li>
+                     <li class="dropdown">
+                        <a href="https://nber-rehabcouncil.gov.in/programme/4879#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                            Examination  <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="https://nber-rehabcouncil.gov.in/institute/examinations/applications/22">Sep 2023 Exam </a></li>
+                            <li><a href="https://nber-rehabcouncil.gov.in/institute/exam/applicants?exam_id=24" style="">April 2024 Supplementary Exam</a></li> 
+                            <li><a href="https://nber-rehabcouncil.gov.in/institute/exam/home/25" style="">June 2024 Exam</a></li> 
+                        </ul>
+                    </li>
+
+                                             
+                     <li class="dropdown">
+                        <a href="https://nber-rehabcouncil.gov.in/programme/4879#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                            Payments  <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="https://nber-rehabcouncil.gov.in/institute/affiliationfee">Affiliation Fee</a></li>
+                                                    </ul>
+                    </li>
+                    
+                     <li><a href="https://nber-rehabcouncil.gov.in/reportissue">Data Correction Requests </a></li>
+                     <li><a href="https://nber-rehabcouncil.gov.in/institute/faculties">Faculties </a></li>
+
+                    
+                </ul>
+
+                                <!-- Right Side Of Navbar -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li><form action="https://nber-rehabcouncil.gov.in/searchcandidates">
+                            <div class="input-group" style="width:300px;margin-top:7px;margin-right: 5px;">
+                                <input type="text" name="key" class="form-control" placeholder="Search with Enrolment# or Name">
+                                <span class="input-group-btn">
+                                                <button type="submit" class="btn btn-primary"><i class="fa fa-btn fa-search"></i></button>
+                                            </span>
+                            </div></form>
+                    </li>
+
+                    <!-- Authentication Links -->
+                                            <li class="dropdown">
+                            <a href="https://nber-rehabcouncil.gov.in/programme/4879#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                UP027 <span class="caret"></span>
+                            </a>
+
+                            <ul class="dropdown-menu" role="menu">
+                            <li><a href="https://nber-rehabcouncil.gov.in/institute/profile"><i class="fa fa-btn fa-user"></i>Profile</a></li>
+                            <li><a href="https://nber-rehabcouncil.gov.in/institute/changepassword"><i class="fa fa-btn fa-key"></i>Change Password</a></li>
+                                <li><a href="https://nber-rehabcouncil.gov.in/logout"><i class="fa fa-btn fa-sign-out"></i>Logout</a></li>
+                            </ul>
+                        </li>
+                                    </ul>
+
+            </div>
+        </div>
+    </nav>
+   </div>
+
+                                    
+<script>
+    function validateotp(otp){
+        var apid = $('#approvedprogramme_id').val();
+        var formData = new FormData();
+		formData.append('approvedprogramme_id', apid); 
+        formData.append('otp', otp ); 
+        var token = $('input[name=_token]');
+        $.ajax({
+                url: "https://nber-rehabcouncil.gov.in/declarationform/verifyotp",
+                method: 'POST',
+                dataType: 'json',
+                contentType: false,
+                processData: false,
+                headers: {
+                    'X-CSRF-TOKEN': token.val()
+                },
+                data: formData,
+                success: function (data) {
+                    console.log(data);
+                },
+                error: function (data) {
+                    if (data.status === 422) {
+                        console.log(data);
+                    } else {
+                        console.log(data);
+                    }
+                }
+            }).done(function(response) {
+                if(response!='success'){
+                    swal("Error Occurred!!!", 'Please enter the correct OTP', "error");
+                }else{
+                    swal("Thank you!!!", '', "success");
+					window.location.href = "https://nber-rehabcouncil.gov.in/enrolment"
+                }
+            });
+    }
+     function showotpinput(){
+        swal({
+                title: 'Enter the OTP' ,
+                text: "Enter the 6 digit OTP received on your email ",
+				input: 'text',
+                showCancelButton: true,
+                confirmButtonColor: '#d33',
+                cancelButtonColor: '#3085d6',
+                confirmButtonText: 'Confirm!',
+				inputValidator: (value) => {
+					if (!(parseInt(value) >= 99999 && parseInt(value) < 1000000)) 
+					{
+						return 'Please enter valid OTP'
+					}
+					else {
+						validateotp(value);
+					}
+				},
+            }).then((result) => {
+                
+            });
+    }
+    function enabledisableSubmit(type){
+        //console.log(type);
+        if(type!=='enable'){
+            //console.log('disabling');
+            $('#sendotp').attr('disabled',true);
+            $('.loading').removeClass('hidden');
+            $('.save').text('Please wait...');
+        }else{
+            $('#sendotp').attr('disabled',false);
+            $('.loading').addClass('hidden');
+            $('.save').text('Submit');
+        }
+    }
+    function sendotp(){
+        enabledisableSubmit('disable');
+        var validation = true;
+        var valstring = 'Please enter correct ';
+        
+        var name = $('#name').val();
+        if(name.length < 3){
+            validation = false;
+            valstring += " Name ";
+        }
+        var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+        var email = $.trim($('#email').val());
+        if(!regex.test(email)){
+            validation = false;
+            valstring += " email address ";
+        }
+
+		var mobile = $.trim($('#mobile').val());
+		if(mobile.length < 10){
+            validation = false;
+            valstring += " Mobile ";
+        }
+        
+        
+		var apid = $('#approvedprogramme_id').val();
+        if(validation){
+            var formData = new FormData();
+            formData.append('name', name); 
+            formData.append('email', email); 
+			formData.append('mobile', mobile); 
+            formData.append('approvedprogramme_id', apid); 
+            var token = $('input[name=_token]');
+            $.ajax({
+                    url: "https://nber-rehabcouncil.gov.in/declarationform/sendotp",
+				    method: 'POST',
+				    dataType: 'json',
+					contentType: false,
+					processData: false,
+					headers: {
+				    	'X-CSRF-TOKEN': token.val()
+					},
+				    data: formData,
+				    success: function (data) {
+                        console.log(data);
+				    },
+				    error: function (data) {
+                        if (data.status === 422) {
+                            console.log(data);
+                        } else {
+                            console.log(data);
+                        }
+                    }
+				}).done(function(response) {
+                    enabledisableSubmit('enable');
+                    if(response=='200'){
+                        showotpinput();
+                    }else{
+                        swal("Error Occurred!!!", 'Could not send OTP, Please try again.', "error");
+                    }
+                });
+                
+        }else{
+            swal("Error Occurred!!!", valstring, "error");
+            enabledisableSubmit('enable');
+        }
+        
+    }
+
+   
+</script>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+
+				<ul class="breadcrumb" style="background:transparent!important;">
+					<li><a href="https://nber-rehabcouncil.gov.in/nber/admissions">Enrolment</a></li>
+					<li> D.Ed Spl Ed.(HI) (Revised)  - 2023 </li>
+																														<a href="https://nber-rehabcouncil.gov.in/pdf/4879" class="btn btn-default pull-right  btn-bc" style="display:none;margin-right: 10px!important;"><i class="fa fa-print"></i> Print</a>
+																												<a class="btn btn-primary pull-right btn-bc" style="color:white;display:none;" href="https://nber-rehabcouncil.gov.in/candidate/create/4879">Add Candidate</a>
+																</ul>
+			</div>
+
+
+
+		</div>
+		
+		<div class="row">
+			<div class="col-md-12">
+
+									
+				
+				<table class="table  table-bordered">
+					<tbody><tr>
+						<th>Sl No</th>
+						<th>Name</th>
+						<th>Enrolment Number</th>
+						<th>Photo</th>
+						<th>Date of Birth</th>
+						<th>Email</th>
+						<th>Mobile Number</th><th> Mobille OTP Verification Status <small class="text-muted">By Student</small></th>
+						<th>Document Verfification Status <small class="text-muted">By NBER</small> </th>
+						<th>Links</th>
+					</tr>
+										<input type="hidden" name="_token" value="WBPIMqD7qHqrADTMDLDpAASxZvTdamr0qD3Cqh6z">
+
+																						<tr>
+						<td>
+								1
+															</td>
+							<td>MS KRISHNA BAMBERWAL</td>
+							<td>322364118</td>
+							<td>
+																<img src="./List_files/4879_91777.jpeg" alt="" style="height:100px;">
+														</td>
+							<td>15-09-1997
+							</td>
+							<td>
+								krishnabamberwal1997@gmail.com
+							</td>
+							<td>
+								8690629658 
+							</td>
+							<td>
+																										<span class="label label-xs label-info">Verified</span>
+																									
+															</td>
+							<td>
+								<span class="label label-success">Verified</span>
+							</td>
+							<td>
+
+								<button type="button" class="btn btn-default btn-xs hidden" data-toggle="modal" data-target="#myModal91777"><i class="fa fa-eye"></i> &nbsp;Quick View</button>
+								<input type="hidden" value="91777">
+
+																											
+								</td>
+						</tr>
+																							<tr>
+						<td>
+								2
+															</td>
+							<td>GANESH NARAYAN BAMBERWAL</td>
+							<td>322364106</td>
+							<td>
+																<img src="./List_files/4879_92022.jpg" alt="" style="height:100px;">
+														</td>
+							<td>16-07-1996
+							</td>
+							<td>
+								ganubamberwal45@gmail.com
+							</td>
+							<td>
+								8005827044 
+							</td>
+							<td>
+																										<span class="label label-xs label-info">Verified</span>
+																									
+															</td>
+							<td>
+								<span class="label label-success">Verified</span>
+							</td>
+							<td>
+
+								<button type="button" class="btn btn-default btn-xs hidden" data-toggle="modal" data-target="#myModal92022"><i class="fa fa-eye"></i> &nbsp;Quick View</button>
+								<input type="hidden" value="92022">
+
+																											
+								</td>
+						</tr>
+																							<tr>
+						<td>
+								3
+															</td>
+							<td>KRISHNA KUMAR CHANDEL</td>
+							<td>322364110</td>
+							<td>
+																<img src="./List_files/4879_92241.jpg" alt="" style="height:100px;">
+														</td>
+							<td>18-06-1997
+							</td>
+							<td>
+								krishna.chandel989@gmail.com
+							</td>
+							<td>
+								9784548453 
+							</td>
+							<td>
+																										<span class="label label-xs label-info">Verified</span>
+																									
+															</td>
+							<td>
+								<span class="label label-success">Verified</span>
+							</td>
+							<td>
+
+								<button type="button" class="btn btn-default btn-xs hidden" data-toggle="modal" data-target="#myModal92241"><i class="fa fa-eye"></i> &nbsp;Quick View</button>
+								<input type="hidden" value="92241">
+
+																											
+								</td>
+						</tr>
+																							<tr>
+						<td>
+								4
+															</td>
+							<td>RAHUL GIRI</td>
+							<td>322364129</td>
+							<td>
+																<img src="./List_files/4879_92528.jpg" alt="" style="height:100px;">
+														</td>
+							<td>02-11-2002
+							</td>
+							<td>
+								rg281007@gmail.com
+							</td>
+							<td>
+								6367281007 
+							</td>
+							<td>
+																										<span class="label label-xs label-info">Verified</span>
+																									
+															</td>
+							<td>
+								<span class="label label-success">Verified</span>
+							</td>
+							<td>
+
+								<button type="button" class="btn btn-default btn-xs hidden" data-toggle="modal" data-target="#myModal92528"><i class="fa fa-eye"></i> &nbsp;Quick View</button>
+								<input type="hidden" value="92528">
+
+																											
+								</td>
+						</tr>
+																							<tr>
+						<td>
+								5
+															</td>
+							<td>PRABHU SINGH</td>
+							<td>322364128</td>
+							<td>
+																<img src="./List_files/4879_92724.jpg" alt="" style="height:100px;">
+														</td>
+							<td>15-08-2000
+							</td>
+							<td>
+								prabhujat148.66@gmail.com
+							</td>
+							<td>
+								9772203612 
+							</td>
+							<td>
+																										<span class="label label-xs label-info">Verified</span>
+																									
+															</td>
+							<td>
+								<span class="label label-success">Verified</span>
+							</td>
+							<td>
+
+								<button type="button" class="btn btn-default btn-xs hidden" data-toggle="modal" data-target="#myModal92724"><i class="fa fa-eye"></i> &nbsp;Quick View</button>
+								<input type="hidden" value="92724">
+
+																											
+								</td>
+						</tr>
+																							<tr>
+						<td>
+								6
+															</td>
+							<td>KULDEEP SINGH</td>
+							<td>322364111</td>
+							<td>
+																<img src="./List_files/4879_92903.jpg" alt="" style="height:100px;">
+														</td>
+							<td>17-12-2003
+							</td>
+							<td>
+								ks755118@gmail.com
+							</td>
+							<td>
+								6375597448 
+							</td>
+							<td>
+																										<span class="label label-xs label-info">Verified</span>
+																									
+															</td>
+							<td>
+								<span class="label label-success">Verified</span>
+							</td>
+							<td>
+
+								<button type="button" class="btn btn-default btn-xs hidden" data-toggle="modal" data-target="#myModal92903"><i class="fa fa-eye"></i> &nbsp;Quick View</button>
+								<input type="hidden" value="92903">
+
+																											
+								</td>
+						</tr>
+																							<tr>
+						<td>
+								7
+															</td>
+							<td>RAJESH KUMAR SAINI</td>
+							<td>322364130</td>
+							<td>
+																<img src="./List_files/4879_93108.jpg" alt="" style="height:100px;">
+														</td>
+							<td>01-06-2003
+							</td>
+							<td>
+								rajurajeshsaini016@gmail.com
+							</td>
+							<td>
+								8949019185 
+							</td>
+							<td>
+																										<span class="label label-xs label-info">Verified</span>
+																									
+															</td>
+							<td>
+								<span class="label label-success">Verified</span>
+							</td>
+							<td>
+
+								<button type="button" class="btn btn-default btn-xs hidden" data-toggle="modal" data-target="#myModal93108"><i class="fa fa-eye"></i> &nbsp;Quick View</button>
+								<input type="hidden" value="93108">
+
+																											
+								</td>
+						</tr>
+																							<tr>
+						<td>
+								8
+															</td>
+							<td>SURESH SINGH</td>
+							<td>322364135</td>
+							<td>
+																<img src="./List_files/4879_93419.jpg" alt="" style="height:100px;">
+														</td>
+							<td>05-03-2002
+							</td>
+							<td>
+								sureshsinghc74@gmail.com
+							</td>
+							<td>
+								6377864349 
+							</td>
+							<td>
+																										<span class="label label-xs label-info">Verified</span>
+																									
+															</td>
+							<td>
+								<span class="label label-success">Verified</span>
+							</td>
+							<td>
+
+								<button type="button" class="btn btn-default btn-xs hidden" data-toggle="modal" data-target="#myModal93419"><i class="fa fa-eye"></i> &nbsp;Quick View</button>
+								<input type="hidden" value="93419">
+
+																											
+								</td>
+						</tr>
+																							<tr>
+						<td>
+								9
+															</td>
+							<td>MS MANISHA MANDA</td>
+							<td>322364121</td>
+							<td>
+																<img src="./List_files/4879_93565.jpg" alt="" style="height:100px;">
+														</td>
+							<td>05-09-2007
+							</td>
+							<td>
+								choudharymanisha5158@gmail.com
+							</td>
+							<td>
+								9636009056 
+							</td>
+							<td>
+																										<span class="label label-xs label-info">Verified</span>
+																									
+															</td>
+							<td>
+								<span class="label label-success">Verified</span>
+							</td>
+							<td>
+
+								<button type="button" class="btn btn-default btn-xs hidden" data-toggle="modal" data-target="#myModal93565"><i class="fa fa-eye"></i> &nbsp;Quick View</button>
+								<input type="hidden" value="93565">
+
+																											
+								</td>
+						</tr>
+																							<tr>
+						<td>
+								10
+															</td>
+							<td>MS RANJU BIDIYASAR</td>
+							<td>322364124</td>
+							<td>
+																<img src="./List_files/4879_93697.jpg" alt="" style="height:100px;">
+														</td>
+							<td>25-12-2003
+							</td>
+							<td>
+								ranjubidiyasar843@gmail.com
+							</td>
+							<td>
+								6367823896 
+							</td>
+							<td>
+																										<span class="label label-xs label-info">Verified</span>
+																									
+															</td>
+							<td>
+								<span class="label label-success">Verified</span>
+							</td>
+							<td>
+
+								<button type="button" class="btn btn-default btn-xs hidden" data-toggle="modal" data-target="#myModal93697"><i class="fa fa-eye"></i> &nbsp;Quick View</button>
+								<input type="hidden" value="93697">
+
+																											
+								</td>
+						</tr>
+																							<tr>
+						<td>
+								11
+															</td>
+							<td>MS LALIITA BAGORIYA</td>
+							<td>322364119</td>
+							<td>
+																<img src="./List_files/4879_93871.jpg" alt="" style="height:100px;">
+														</td>
+							<td>20-07-1994
+							</td>
+							<td>
+								lbagoriya1994@gmail.com
+							</td>
+							<td>
+								8209994922 
+							</td>
+							<td>
+																										<span class="label label-xs label-info">Verified</span>
+																									
+															</td>
+							<td>
+								<span class="label label-success">Verified</span>
+							</td>
+							<td>
+
+								<button type="button" class="btn btn-default btn-xs hidden" data-toggle="modal" data-target="#myModal93871"><i class="fa fa-eye"></i> &nbsp;Quick View</button>
+								<input type="hidden" value="93871">
+
+																											
+								</td>
+						</tr>
+																							<tr>
+						<td>
+								12
+															</td>
+							<td>BHAGWAN SINGH RATHORE</td>
+							<td>322364105</td>
+							<td>
+																<img src="./List_files/4879_94016.jpg" alt="" style="height:100px;">
+														</td>
+							<td>05-04-1994
+							</td>
+							<td>
+								mtbsingh123@gmail.com
+							</td>
+							<td>
+								9587562585 
+							</td>
+							<td>
+																										<span class="label label-xs label-info">Verified</span>
+																									
+															</td>
+							<td>
+								<span class="label label-success">Verified</span>
+							</td>
+							<td>
+
+								<button type="button" class="btn btn-default btn-xs hidden" data-toggle="modal" data-target="#myModal94016"><i class="fa fa-eye"></i> &nbsp;Quick View</button>
+								<input type="hidden" value="94016">
+
+																											
+								</td>
+						</tr>
+																							<tr>
+						<td>
+								13
+															</td>
+							<td>BABLU GURJAR</td>
+							<td>322364103</td>
+							<td>
+																<img src="./List_files/4879_94207.jpg" alt="" style="height:100px;">
+														</td>
+							<td>15-06-1996
+							</td>
+							<td>
+								bablugurjar0145@gmail.com
+							</td>
+							<td>
+								9660171660 
+							</td>
+							<td>
+																										<span class="label label-xs label-info">Verified</span>
+																									
+															</td>
+							<td>
+								<span class="label label-success">Verified</span>
+							</td>
+							<td>
+
+								<button type="button" class="btn btn-default btn-xs hidden" data-toggle="modal" data-target="#myModal94207"><i class="fa fa-eye"></i> &nbsp;Quick View</button>
+								<input type="hidden" value="94207">
+
+																											
+								</td>
+						</tr>
+																							<tr>
+						<td>
+								14
+															</td>
+							<td>MS BHARTI JANGID</td>
+							<td>322364113</td>
+							<td>
+																<img src="./List_files/4879_94344.jpeg" alt="" style="height:100px;">
+														</td>
+							<td>13-12-2006
+							</td>
+							<td>
+								laxmijangid17@gmail.com
+							</td>
+							<td>
+								9783976824 
+							</td>
+							<td>
+																										<span class="label label-xs label-info">Verified</span>
+																									
+															</td>
+							<td>
+								<span class="label label-success">Verified</span>
+							</td>
+							<td>
+
+								<button type="button" class="btn btn-default btn-xs hidden" data-toggle="modal" data-target="#myModal94344"><i class="fa fa-eye"></i> &nbsp;Quick View</button>
+								<input type="hidden" value="94344">
+
+																											
+								</td>
+						</tr>
+																							<tr>
+						<td>
+								15
+															</td>
+							<td>MS PREETI TAILOR</td>
+							<td>322364122</td>
+							<td>
+																<img src="./List_files/4879_94582.jpg" alt="" style="height:100px;">
+														</td>
+							<td>06-09-2006
+							</td>
+							<td>
+								preetitailor2006@gmail.com
+							</td>
+							<td>
+								8955513131 
+							</td>
+							<td>
+																										<span class="label label-xs label-info">Verified</span>
+																									
+															</td>
+							<td>
+								<span class="label label-success">Verified</span>
+							</td>
+							<td>
+
+								<button type="button" class="btn btn-default btn-xs hidden" data-toggle="modal" data-target="#myModal94582"><i class="fa fa-eye"></i> &nbsp;Quick View</button>
+								<input type="hidden" value="94582">
+
+																											
+								</td>
+						</tr>
+																							<tr>
+						<td>
+								16
+															</td>
+							<td>KM SARIKA UPADHAYAY</td>
+							<td>322364108</td>
+							<td>
+																<img src="./List_files/4879_95634.jpg" alt="" style="height:100px;">
+														</td>
+							<td>19-07-1999
+							</td>
+							<td>
+								upadhyaysarika3@gmail.com
+							</td>
+							<td>
+								7704909052 
+							</td>
+							<td>
+																										<span class="label label-xs label-info">Verified</span>
+																									
+															</td>
+							<td>
+								<span class="label label-success">Verified</span>
+							</td>
+							<td>
+
+								<button type="button" class="btn btn-default btn-xs hidden" data-toggle="modal" data-target="#myModal95634"><i class="fa fa-eye"></i> &nbsp;Quick View</button>
+								<input type="hidden" value="95634">
+
+																											
+								</td>
+						</tr>
+																							<tr>
+						<td>
+								17
+															</td>
+							<td>SONAM </td>
+							<td>322364134</td>
+							<td>
+																<img src="./List_files/4879_95814.jpg" alt="" style="height:100px;">
+														</td>
+							<td>15-08-2007
+							</td>
+							<td>
+								sonammaurya945@gmail.com
+							</td>
+							<td>
+								9616976288 
+							</td>
+							<td>
+																										<span class="label label-xs label-info">Verified</span>
+																									
+															</td>
+							<td>
+								<span class="label label-success">Verified</span>
+							</td>
+							<td>
+
+								<button type="button" class="btn btn-default btn-xs hidden" data-toggle="modal" data-target="#myModal95814"><i class="fa fa-eye"></i> &nbsp;Quick View</button>
+								<input type="hidden" value="95814">
+
+																											
+								</td>
+						</tr>
+																							<tr>
+						<td>
+								18
+															</td>
+							<td>PIYUSH JANGID</td>
+							<td>322364127</td>
+							<td>
+																<img src="./List_files/4879_96008.jpg" alt="" style="height:100px;">
+														</td>
+							<td>25-12-2006
+							</td>
+							<td>
+								jangidpiyush989@gmail.com
+							</td>
+							<td>
+								9982193599 
+							</td>
+							<td>
+																										<span class="label label-xs label-info">Verified</span>
+																									
+															</td>
+							<td>
+								<span class="label label-success">Verified</span>
+							</td>
+							<td>
+
+								<button type="button" class="btn btn-default btn-xs hidden" data-toggle="modal" data-target="#myModal96008"><i class="fa fa-eye"></i> &nbsp;Quick View</button>
+								<input type="hidden" value="96008">
+
+																											
+								</td>
+						</tr>
+																							<tr>
+						<td>
+								19
+															</td>
+							<td>KRISHAN MEENA</td>
+							<td>322364109</td>
+							<td>
+																<img src="./List_files/4879_96231.jpg" alt="" style="height:100px;">
+														</td>
+							<td>02-01-2006
+							</td>
+							<td>
+								bm7605071@gmail.com
+							</td>
+							<td>
+								8209468852 
+							</td>
+							<td>
+																										<span class="label label-xs label-info">Verified</span>
+																									
+															</td>
+							<td>
+								<span class="label label-success">Verified</span>
+							</td>
+							<td>
+
+								<button type="button" class="btn btn-default btn-xs hidden" data-toggle="modal" data-target="#myModal96231"><i class="fa fa-eye"></i> &nbsp;Quick View</button>
+								<input type="hidden" value="96231">
+
+																											
+								</td>
+						</tr>
+																							<tr>
+						<td>
+								20
+															</td>
+							<td>MS KALPANA MEENA</td>
+							<td>322364115</td>
+							<td>
+																<img src="./List_files/4879_96451.jpeg" alt="" style="height:100px;">
+														</td>
+							<td>27-03-2005
+							</td>
+							<td>
+								kalpanameena272@gmail.com
+							</td>
+							<td>
+								7023657813 
+							</td>
+							<td>
+																										<span class="label label-xs label-info">Verified</span>
+																									
+															</td>
+							<td>
+								<span class="label label-success">Verified</span>
+							</td>
+							<td>
+
+								<button type="button" class="btn btn-default btn-xs hidden" data-toggle="modal" data-target="#myModal96451"><i class="fa fa-eye"></i> &nbsp;Quick View</button>
+								<input type="hidden" value="96451">
+
+																											
+								</td>
+						</tr>
+																							<tr>
+						<td>
+								21
+															</td>
+							<td>MS PRIYANKA SHARMA</td>
+							<td>322364123</td>
+							<td>
+																<img src="./List_files/4879_96586.jpg" alt="" style="height:100px;">
+														</td>
+							<td>11-08-2006
+							</td>
+							<td>
+								gauravsharma09318@gmail.com
+							</td>
+							<td>
+								8955908180 
+							</td>
+							<td>
+																										<span class="label label-xs label-info">Verified</span>
+																									
+															</td>
+							<td>
+								<span class="label label-success">Verified</span>
+							</td>
+							<td>
+
+								<button type="button" class="btn btn-default btn-xs hidden" data-toggle="modal" data-target="#myModal96586"><i class="fa fa-eye"></i> &nbsp;Quick View</button>
+								<input type="hidden" value="96586">
+
+																											
+								</td>
+						</tr>
+																							<tr>
+						<td>
+								22
+															</td>
+							<td>ANUJ KUMAR MEENA</td>
+							<td>322364102</td>
+							<td>
+																<img src="./List_files/4879_96907.jpg" alt="" style="height:100px;">
+														</td>
+							<td>11-07-2005
+							</td>
+							<td>
+								anujkumarm535@gmail.com
+							</td>
+							<td>
+								9929235440 
+							</td>
+							<td>
+																										<span class="label label-xs label-info">Verified</span>
+																									
+															</td>
+							<td>
+								<span class="label label-success">Verified</span>
+							</td>
+							<td>
+
+								<button type="button" class="btn btn-default btn-xs hidden" data-toggle="modal" data-target="#myModal96907"><i class="fa fa-eye"></i> &nbsp;Quick View</button>
+								<input type="hidden" value="96907">
+
+																											
+								</td>
+						</tr>
+																							<tr>
+						<td>
+								23
+															</td>
+							<td>RAVI BARDAWAT</td>
+							<td>322364132</td>
+							<td>
+																<img src="./List_files/4879_97138.jpg" alt="" style="height:100px;">
+														</td>
+							<td>04-09-2007
+							</td>
+							<td>
+								rm4830780@gmail.com
+							</td>
+							<td>
+								9664432085 
+							</td>
+							<td>
+																										<span class="label label-xs label-info">Verified</span>
+																									
+															</td>
+							<td>
+								<span class="label label-success">Verified</span>
+							</td>
+							<td>
+
+								<button type="button" class="btn btn-default btn-xs hidden" data-toggle="modal" data-target="#myModal97138"><i class="fa fa-eye"></i> &nbsp;Quick View</button>
+								<input type="hidden" value="97138">
+
+																											
+								</td>
+						</tr>
+																							<tr>
+						<td>
+								24
+															</td>
+							<td>MS SHALINEE VAISHNAV</td>
+							<td>322364125</td>
+							<td>
+																<img src="./List_files/4879_97364.jpg" alt="" style="height:100px;">
+														</td>
+							<td>19-09-1984
+							</td>
+							<td>
+								shalineevaishnav25@gmail.com
+							</td>
+							<td>
+								7849966097 
+							</td>
+							<td>
+																										<span class="label label-xs label-info">Verified</span>
+																									
+															</td>
+							<td>
+								<span class="label label-success">Verified</span>
+							</td>
+							<td>
+
+								<button type="button" class="btn btn-default btn-xs hidden" data-toggle="modal" data-target="#myModal97364"><i class="fa fa-eye"></i> &nbsp;Quick View</button>
+								<input type="hidden" value="97364">
+
+																											
+								</td>
+						</tr>
+																							<tr>
+						<td>
+								25
+															</td>
+							<td>MS KHUSHBU MISHRA</td>
+							<td>322364117</td>
+							<td>
+																<img src="./List_files/4879_97842.jpeg" alt="" style="height:100px;">
+														</td>
+							<td>06-01-2001
+							</td>
+							<td>
+								KHUSHBUMISHRA0601@GMAIL.COM
+							</td>
+							<td>
+								6367047680 
+							</td>
+							<td>
+																										<span class="label label-xs label-info">Verified</span>
+																									
+															</td>
+							<td>
+								<span class="label label-success">Verified</span>
+							</td>
+							<td>
+
+								<button type="button" class="btn btn-default btn-xs hidden" data-toggle="modal" data-target="#myModal97842"><i class="fa fa-eye"></i> &nbsp;Quick View</button>
+								<input type="hidden" value="97842">
+
+																											
+								</td>
+						</tr>
+																							<tr>
+						<td>
+								26
+															</td>
+							<td>MS KALPNA MEENA</td>
+							<td>322364116</td>
+							<td>
+																<img src="./List_files/4879_98002.jpg" alt="" style="height:100px;">
+														</td>
+							<td>28-05-2007
+							</td>
+							<td>
+								drmina400@gmail.com
+							</td>
+							<td>
+								9667191063 
+							</td>
+							<td>
+																										<span class="label label-xs label-info">Verified</span>
+																									
+															</td>
+							<td>
+								<span class="label label-success">Verified</span>
+							</td>
+							<td>
+
+								<button type="button" class="btn btn-default btn-xs hidden" data-toggle="modal" data-target="#myModal98002"><i class="fa fa-eye"></i> &nbsp;Quick View</button>
+								<input type="hidden" value="98002">
+
+																											
+								</td>
+						</tr>
+																							<tr>
+						<td>
+								27
+															</td>
+							<td>MS MANGLI BAI MEENA</td>
+							<td>322364120</td>
+							<td>
+																<img src="./List_files/4879_98189.jpg" alt="" style="height:100px;">
+														</td>
+							<td>04-04-2000
+							</td>
+							<td>
+								meenamahesh402@gmail.com
+							</td>
+							<td>
+								8385890189 
+							</td>
+							<td>
+																										<span class="label label-xs label-info">Verified</span>
+																									
+															</td>
+							<td>
+								<span class="label label-success">Verified</span>
+							</td>
+							<td>
+
+								<button type="button" class="btn btn-default btn-xs hidden" data-toggle="modal" data-target="#myModal98189"><i class="fa fa-eye"></i> &nbsp;Quick View</button>
+								<input type="hidden" value="98189">
+
+																											
+								</td>
+						</tr>
+																							<tr>
+						<td>
+								28
+															</td>
+							<td>MS CHANDINEE VAISHNAV</td>
+							<td>322364114</td>
+							<td>
+																<img src="./List_files/4879_98315.jpg" alt="" style="height:100px;">
+														</td>
+							<td>10-10-1996
+							</td>
+							<td>
+								vaishnavchandinee@gmail.com
+							</td>
+							<td>
+								8949623873 
+							</td>
+							<td>
+																										<span class="label label-xs label-info">Verified</span>
+																									
+															</td>
+							<td>
+								<span class="label label-success">Verified</span>
+							</td>
+							<td>
+
+								<button type="button" class="btn btn-default btn-xs hidden" data-toggle="modal" data-target="#myModal98315"><i class="fa fa-eye"></i> &nbsp;Quick View</button>
+								<input type="hidden" value="98315">
+
+																											
+								</td>
+						</tr>
+																							<tr>
+						<td>
+								29
+															</td>
+							<td>PINKESH SAINI</td>
+							<td>322364126</td>
+							<td>
+																<img src="./List_files/4879_98488.jpg" alt="" style="height:100px;">
+														</td>
+							<td>16-05-2005
+							</td>
+							<td>
+								sainirakesh16103@gmail.com
+							</td>
+							<td>
+								8949841713 
+							</td>
+							<td>
+																										<span class="label label-xs label-info">Verified</span>
+																									
+															</td>
+							<td>
+								<span class="label label-success">Verified</span>
+							</td>
+							<td>
+
+								<button type="button" class="btn btn-default btn-xs hidden" data-toggle="modal" data-target="#myModal98488"><i class="fa fa-eye"></i> &nbsp;Quick View</button>
+								<input type="hidden" value="98488">
+
+																											
+								</td>
+						</tr>
+																							<tr>
+						<td>
+								30
+															</td>
+							<td>SHASHI KANT VAISHNAV</td>
+							<td>322364133</td>
+							<td>
+																<img src="./List_files/4879_98654.jpg" alt="" style="height:100px;">
+														</td>
+							<td>18-12-1990
+							</td>
+							<td>
+								sharmaarti1557@gmail.com
+							</td>
+							<td>
+								9024110553 
+							</td>
+							<td>
+																										<span class="label label-xs label-info">Verified</span>
+																									
+															</td>
+							<td>
+								<span class="label label-success">Verified</span>
+							</td>
+							<td>
+
+								<button type="button" class="btn btn-default btn-xs hidden" data-toggle="modal" data-target="#myModal98654"><i class="fa fa-eye"></i> &nbsp;Quick View</button>
+								<input type="hidden" value="98654">
+
+																											
+								</td>
+						</tr>
+																							<tr>
+						<td>
+								31
+															</td>
+							<td>HARI OM NARAYAN SHARMA</td>
+							<td>322364107</td>
+							<td>
+																<img src="./List_files/4879_98785.jpg" alt="" style="height:100px;">
+														</td>
+							<td>20-03-1985
+							</td>
+							<td>
+								hariomswami6217@gmail.com
+							</td>
+							<td>
+								9983744090 
+							</td>
+							<td>
+																										<span class="label label-xs label-info">Verified</span>
+																									
+															</td>
+							<td>
+								<span class="label label-success">Verified</span>
+							</td>
+							<td>
+
+								<button type="button" class="btn btn-default btn-xs hidden" data-toggle="modal" data-target="#myModal98785"><i class="fa fa-eye"></i> &nbsp;Quick View</button>
+								<input type="hidden" value="98785">
+
+																											
+								</td>
+						</tr>
+																							<tr>
+						<td>
+								32
+															</td>
+							<td>BANWARI LAL KUMAWAT</td>
+							<td>322364104</td>
+							<td>
+																<img src="./List_files/4879_99272.jpg" alt="" style="height:100px;">
+														</td>
+							<td>02-11-2000
+							</td>
+							<td>
+								banwatilalkumawat2000@gmail.com
+							</td>
+							<td>
+								7689014543 
+							</td>
+							<td>
+																										<span class="label label-xs label-info">Verified</span>
+																									
+															</td>
+							<td>
+								<span class="label label-success">Verified</span>
+							</td>
+							<td>
+
+								<button type="button" class="btn btn-default btn-xs hidden" data-toggle="modal" data-target="#myModal99272"><i class="fa fa-eye"></i> &nbsp;Quick View</button>
+								<input type="hidden" value="99272">
+
+																											
+								</td>
+						</tr>
+																							<tr>
+						<td>
+								33
+															</td>
+							<td>MANISH KUMAR KASOTIYA</td>
+							<td>322364112</td>
+							<td>
+																<img src="./List_files/4879_99403.jpg" alt="" style="height:100px;">
+														</td>
+							<td>30-07-1999
+							</td>
+							<td>
+								manishkasotiya1762@gmail.com
+							</td>
+							<td>
+								8387871762 
+							</td>
+							<td>
+																										<span class="label label-xs label-info">Verified</span>
+																									
+															</td>
+							<td>
+								<span class="label label-success">Verified</span>
+							</td>
+							<td>
+
+								<button type="button" class="btn btn-default btn-xs hidden" data-toggle="modal" data-target="#myModal99403"><i class="fa fa-eye"></i> &nbsp;Quick View</button>
+								<input type="hidden" value="99403">
+
+																											
+								</td>
+						</tr>
+																							<tr>
+						<td>
+								34
+															</td>
+							<td>RAMBABU PANCHAL</td>
+							<td>322364131</td>
+							<td>
+																<img src="./List_files/4879_99508.jpeg" alt="" style="height:100px;">
+														</td>
+							<td>20-08-1993
+							</td>
+							<td>
+								rambabupanchal22@gmail.com
+							</td>
+							<td>
+								7073968924 
+							</td>
+							<td>
+																										<span class="label label-xs label-info">Verified</span>
+																									
+															</td>
+							<td>
+								<span class="label label-success">Verified</span>
+							</td>
+							<td>
+
+								<button type="button" class="btn btn-default btn-xs hidden" data-toggle="modal" data-target="#myModal99508"><i class="fa fa-eye"></i> &nbsp;Quick View</button>
+								<input type="hidden" value="99508">
+
+																											
+								</td>
+						</tr>
+																							<tr>
+						<td>
+								35
+															</td>
+							<td>ABHISHEK MEENA</td>
+							<td>322364101</td>
+							<td>
+																<img src="./List_files/4879_99837.jpeg" alt="" style="height:100px;">
+														</td>
+							<td>06-07-2003
+							</td>
+							<td>
+								meenaabhishek41867@gmail.com
+							</td>
+							<td>
+								9352544233 
+							</td>
+							<td>
+																										<span class="label label-xs label-info">Verified</span>
+																									
+															</td>
+							<td>
+								<span class="label label-success">Verified</span>
+							</td>
+							<td>
+
+								<button type="button" class="btn btn-default btn-xs hidden" data-toggle="modal" data-target="#myModal99837"><i class="fa fa-eye"></i> &nbsp;Quick View</button>
+								<input type="hidden" value="99837">
+
+																											
+								</td>
+						</tr>
+																				</tbody></table>
+
+							</div>
+		</div>
+	</div>
+	<input type="hidden" id="mobile-number">
+	<input type="hidden" id="candidate-id">
+	<input type="hidden" id="mobile-number-verification-code">
+	<input type="hidden" id="email-address-verification-code">
+		<input type="hidden" name="_token" value="WBPIMqD7qHqrADTMDLDpAASxZvTdamr0qD3Cqh6z">
+	<input type="hidden" id="verifying" value="enrolment">
+	<input type="hidden" id="email-address">
+	<script>
+		$(document).ready(function () {
+			$('.swal2-input').attr('maxlength',10);
+			$('.swal2-input').keyup(function(e)
+			{
+				if (/\D/g.test(this.value))
+				{
+					// Filter non-digits from input value.
+					this.value = this.value.replace(/\D/g, '');
+				}
+			});
+		});
+		
+		function verifymobile(id,mobile_no){
+			$('#mobile-number').val(mobile_no);
+			$('#candidate-id').val(id);
+			displayMobileNoVerificationModal();
+		}
+		function verifyemail(id,email){
+			$('#email-address').val(email);
+			$('#candidate-id').val(id);
+			displayEmailAddressVerificationModal();
+		}
+		function changemobile(id,name){
+			swal({
+                title: 'Change Mobile number for '  + name  ,
+                text: "Enter the 10 digit mobile number ",
+				input: 'text',
+                showCancelButton: true,
+                confirmButtonColor: '#d33',
+                cancelButtonColor: '#3085d6',
+                confirmButtonText: 'Update!',
+				inputValidator: (value) => {
+					if (!(parseInt(value) > 6000000000 && parseInt(value) < 9999999999)) 
+					{
+						return 'Please enter a valid mobile number'
+					}
+					else {
+						var formData = new FormData();
+						var token = $('input[name=_token]');
+						formData.append('id', id);
+						formData.append('contactnumber', value);
+						$.ajax({
+							url: 'https://nber-rehabcouncil.gov.in/institute/editmobile',
+							method: 'POST',
+							dataType: 'json',
+							contentType: false,
+							processData: false,
+							headers: {
+								'X-CSRF-TOKEN': token.val()
+							},
+							data: formData,
+							success: function (data) {
+								console.log(data);
+								if(data=='success'){
+									swal({
+										type: 'success',
+										title: 'Mobile Number Updated',
+										showConfirmButton: false,
+										timer: 3000
+									});
+									setTimeout(function(){
+										location.reload();
+									}, 3000); 
+								}else{
+									if(data=='duplicate'){
+										swal({
+											type: 'warning',
+											title: 'Duplicate mobile number',
+											showConfirmButton: false,
+											timer: 1500
+										});
+									}else{
+										swal({
+											type: 'warning',
+											title: 'Could not update mobile number',
+											showConfirmButton: false,
+											timer: 1500
+										});
+									}
+								}
+							},
+							error: function (data) {
+								if(data.responseText == '{"contactnumber":["The contactnumber has already been taken."]}'){
+									swal({
+										type: 'warning',
+										title: 'Mobile number is already been taken.',
+										showConfirmButton: false,
+										timer: 1500
+									});
+								}else{
+									swal({
+									type: 'warning',
+									title: 'Could not update mobile number, please make sure a valid mobile number is given.',
+									showConfirmButton: false,
+									timer: 1500
+								});
+								}
+								
+							}
+						});
+					}
+				},
+            }).then((result) => {
+                
+            })
+			$('.swal2-input').attr('maxlength',10);
+		}
+        function confirm(id,name){
+            swal({
+                title: 'Are you sure?',
+                text: "Delete candidate " + name ,
+                type: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#d33',
+                cancelButtonColor: '#3085d6',
+                confirmButtonText: 'Yes, delete!'
+            }).then((result) => {
+                if (result.value) {
+                    window.location.replace("https://nber-rehabcouncil.gov.in/candidate/delete/"+id);
+
+                }
+            })
+        }
+	</script>
+    
+	
+
+
+		<div id="myModal" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h3><b>Declaration</b></h3>
+				</div>
+				<div class="modal-body">
+					<p>
+						I hereby declare that the candidates are admitted as per the norms and the details uploaded have been verified by me based on the candidate's original school certificates / mark sheets and goverment certificates.
+						
+						
+						The details verified are as below: 
+
+					</p>
+					<ul>
+						<li>
+							Name of the candidate
+						</li>
+						<li>Father’s / Husband name                             </li>
+						<li> Address</li>
+						<li>Date of Birth                            </li>
+						<li>Email</li>
+						<li>Mobile number</li>
+						<li>Colour scanned copies of original qualification  document</li>
+						<li>Colour recent photo</li>
+						<li>Eligibility conditions as per the norms</li>
+					</ul>
+					<p>
+						Further, it is to mention that the candidate is informed to verify email &amp; mobile number with OTP for payment of enrolment fees and generation of PRN number. I hereby take the responsibility of all the 
+							 35 
+						candidates uploaded by the institute.  I do understand any corrections in the details of the students will not be accepted by NBER - RCI.
+
+					</p>
+					<p>
+						</p><div class="form-group">
+							<label for="name" class="control-label">Course</label>
+							<input type="text" name="course" disabled="" value="D.Ed Spl Ed.(HI) - 2023 Batch" id="course" class="form-control">
+						</div>
+						<div class="form-group">
+							<label for="name" class="control-label">Name of the Course Coordinator / HOD</label>
+							<input type="text" name="name" id="name" class="form-control">
+						</div>
+						<div class="form-group">
+							<label for="name" class="control-label">Email Address</label>
+							<input type="email" name="email" id="email" class="form-control">
+						</div>
+						<div class="form-group">
+							<label for="name" class="control-label">Phone Number</label>
+							<input type="text" name="mobile" id="mobile" class="form-control">
+						</div>
+						
+						<div class="form-group hidden" id="otp-form">
+							<label for="otp" class="control-label">OTP </label>
+							
+							<input type="text" id="otp" value="786694" name="otp" class="form-control">
+						</div>
+						<input type="hidden" id="approvedprogramme_id" value="4879">
+					<p></p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" id="sendotp" class="btn btn-primary pull-right" onclick="sendotp();">
+
+							<img src="./List_files/loading1.gif" class="hidden loading" style="width: 18px;margin-right: 10px;">
+	
+							<span class="save">  Submit</span>
+						
+					</button>
+					<button type="button" class="btn btn-default pull-left" data-dismiss="modal">Cancel</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="./List_files/cropper.js.download"></script>
+
+
+</body></html>
